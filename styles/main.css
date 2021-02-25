@@ -1,0 +1,133 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Style rules for the html */
+html { background-color: white; }
+
+
+/* Style rules for the body */
+body {
+	background-color: #fffded;
+	border: 3px solid #931420;
+	box-shadow: 5px 5px 5px gray;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	margin: 0px auto 0px auto;
+	width: 800px;
+}
+
+
+/* Style rules for the header */
+header {
+	background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	border-bottom: 3px solid #931420;
+	padding: 1.5em 0em 2em 0em;							
+}
+
+header img {
+	float: left;
+	padding: 0px 30px 0px 30px;
+}
+
+header h2 {
+	color: #800000;
+	font-size: 170%;
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+
+.shadow { text-shadow: 1px 1px 1px #800000; }
+
+
+/* Style rules for the section */
+section {
+	float: right;
+	padding: 0px 20px 20px 20px;
+	width: 525px;
+}
+
+section img {
+	border: 1px solid black;
+	float: right;
+	margin: 0.25em 0em 0.25em 0.5em;
+}
+
+section h1 {
+	font-size: 150%;
+	margin: 0em;
+	padding: 0.5em 0em 0.25em 0em;
+}
+
+section h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: 0.5em 0em 0.25em 0em;
+}
+
+section article {
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+	padding: 0.5em 0em 0.5em 0em;
+}
+
+section article h2 { padding-top: 0em; }
+
+section article h3 {
+	font-size: 105%;
+	padding-bottom: 0.25em;
+}
+
+section p { padding-bottom: 0.5em; }
+
+section blockquote {
+	font-style: italic;
+	padding: 0em 2em 0em 2em;
+}
+
+section ul { padding: 0em 0em 0.25em 1.25em; }
+
+section li { padding-bottom: 0.35em; }
+
+a:hover, a:focus { font-style: italic; }
+
+
+/* Style rules for the aside */
+aside {
+	float: right;
+	padding: 0px 0px 20px 20px;
+	width: 215px;
+}
+
+aside h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: 0.5em 0em 0.25em 0em;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: 0.25em;
+}
+
+aside img { padding-bottom: 1em; }
+
+
+/* Style rules for the footer */
+footer {
+	background-color: #931420;
+	border-top: 3px solid #931420;
+	clear: both;
+}
+
+footer p {
+	color: white;
+	padding: 1em 0em 1em 0em;
+	text-align: center;
+}
